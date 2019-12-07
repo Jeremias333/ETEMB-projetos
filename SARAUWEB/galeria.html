@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <style media="screen">
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background: rgb(13, 5, 8);
+        animation-name: body-animation;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+      }
+      .top{
+        padding: 0.5%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+
+      }
+      .text{
+        color: #fff;
+        font-family: Arial;
+        font-weight: 700;
+      }
+      #hh{
+        width: 100%;
+        display: flex;
+        padding: 1%;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      .top h1{
+        text-align: center;
+        text-shadow: 0px 0px 4px white;
+      }
+      .button{
+        float: left;
+        background: rgb(115, 109, 139);
+        color: rgb(5, 21, 105);
+        font-size: 36pt;
+        border: 1px solid rgb(125, 149, 152);
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px white;
+      }
+      #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #container iframe{
+        border-left: none;
+        border-right: none;
+        border-top: 4px inset rgb(149, 108, 28);
+        border-bottom: 4px inset rgb(149, 108, 28);
+        width: 100%;
+        height: 500px;
+        animation-name: frame-animation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        box-shadow: 0px 0px 4px black;
+      }
+      .footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @keyframes frame-animation {
+        25%{
+          border-top: 4px inset rgb(0, 139, 163);
+          border-bottom: 4px inset rgb(0, 139, 163);
+        }
+        50%{
+          border-top: 4px inset rgb(48, 120, 135);
+          border-bottom: 4px inset rgb(48, 120, 135);
+        }
+        75%{
+          border-top: 4px inset rgb(6, 174, 209);
+          border-bottom: 4px inset rgb(6, 174, 209);
+        }
+        100%{
+          border-top: 4px inset rgb(74, 197, 223);
+          border-bottom: 4px inset rgb(74, 197, 223);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="top text">
+        <a href="index.html"><i class="material-icons button">keyboard_arrow_left</i></a>
+        <div id="hh"><h1>Galeria de Imagens</h1></div>
+
+      </div>
+      <div id="container">
+        <iframe src="galery.php" width="" height=""></iframe>
+      </div>
+      <footer class="footer text">
+        <h1>Sarau - 2019</h1>
+      </footer>
+    </div>
+  </body>
+</html>
