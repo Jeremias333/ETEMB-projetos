@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!--<script type="text/javascript" src="./js/calc.js"></script>-->
+		<script type="text/javascript">
+			function foco() {
+				document.getElementById('caixatexto').focus();
+			}	
+		</script>
+		<style type="text/css">
+			@font-face {
+			    src: url(/Projeto TCC/font/NovaSquare-Regular.ttf);
+			    font-family: 'Nova Square', cursive;   
+			}
+
+			textarea {
+				height:450px; 
+				width:770px; 
+				resize: none; 
+				overflow: auto; 
+				font-size: 22px;
+				font-family: 'Nova Square', cursive;   
+				background-color: #F0E68C;
+			} 
+		</style>
+	</head>
+	<body  onload="foco()">
+		<form name="formCalculadora">
+			<center>
+
+				<textarea id="caixatexto" name="caixatexto"></textarea>
+			</center>
+		</form>
+	</body>
+</html>

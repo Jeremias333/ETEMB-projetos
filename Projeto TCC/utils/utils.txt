@@ -1,0 +1,6 @@
+[15:26, 10/14/2019] Thulio: #d0995d
+[15:26, 10/14/2019] Thulio: e #ffdd3d
+
+bege e amarelo, letras em preto;
+
+<iframe style="border: 0;" src=".\php\bloco.php" width="600px" height="150px" frameborder="0" scrolling="no"></iframe>

@@ -1,0 +1,47 @@
+@media only screen and (max-device-width: 900px) {
+ .footer { width:600px; }
+ .header {width: 600px;}
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+	position: relative;
+	padding-bottom: inherit;
+}
+
+html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #ffdd3d;
+}
+
+.botoes{
+    padding-left: 38.5%;
+    position:fixed;
+
+}
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
