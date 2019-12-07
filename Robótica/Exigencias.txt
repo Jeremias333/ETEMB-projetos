@@ -1,0 +1,15 @@
+Exigencias
+1-  substituir motor e roda do lado direito do carrinho.
+2- a função de desvio, não funciona corretamente. Ele desvia do objeto, mas não retorna pra pista, vai pro lado contrário.
+3- temos q repensar o lugar do sensor de linha. 
+4- a questão da velocidade, já foi resolvida com a atualização da guaratecs. No entanto, surgiu outro. 🤦🏻‍♂
+O carro não consegue passar por cima dos obstáculos pq tá mais devagar.
+5- temos q.testar a subida de rampa. Isso não goi testado ainda. Até mesmo pra podermos regular a altura do sensor e posição. Amanhã levarei pra escola umas madeiras pra construirmos uma rampa na quarta. Inclusive, vcs poderiam fazervisso na.quarta pela manhã,  🤭🤭 a inclinação é de 20°
+6- se preparem para explicarem o prijeto para mim e a prof Fatima. Vamos ensaiar. As aps serão a tarde.
+8- na quarta peguem lá a caixinha de motores e roda, selecionem, soldem os fios e se der, já monta.
+10- leiam, o banner e vejam se tem mais algum acento faltando, palavra errada, ponte d+. O que eu vi, removi...
+12- substitui todos os fios macho-macho  e femea-femea para Macho-femea.
+Vejam como ficou Clean a fiação... 
+14- falta pintar esse suporte do ultrassonico.
+15- o funcionamento hje.
+Vcs terão q ajustar o codigo pra mais dois sensores e os tempos dentro das funcoes:  robo.frente(x)  no valor de x colocar uns valores q passarei amanhã
