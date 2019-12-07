@@ -1,0 +1,21 @@
+//Arquivo usado para salvar algumas linhas e ajudar com suporte e não esquecer alguns avisos//
+
+Fonte usada: Microsoft Yi Bangil nas caixas de texto
+			 Microsoft Yi Bangil + bold para labels que apresentam caixas de texto
+			 
+			 
+FALTA: ADICIONAR E ORGANIZAR TODODS LABELS NO BANCO DE DADOS E CHAMAR ELES DE ACORDO COM A LINGUA;
+	   Apagar os System.out.print no fim do projeto
+
+
+Na hora de gerar o executavel, gerar com extract alguma coisa, primeira opção.
+
+//P R O B L E M A - A T U A L : ACHAR LÓGICA PARA ORDENAR NOVAS PONTUAÇÕES, TALVEZ USAR COLLECTION.SHORT;
+								
+								ACHAR LÓGICA E MODO PARA MUDAR IDIOMAS;
+							
+								ACHAR LÓGICA PARA PODER SALVAR PONTOS;
+								
+								ACHAR LÓGICA PARA LABEL DE PONTOS;
+								
+								FAZER TRADUÇÃO DAS LABELS;
