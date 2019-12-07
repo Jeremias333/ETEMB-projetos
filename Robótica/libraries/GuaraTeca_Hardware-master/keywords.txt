@@ -1,0 +1,53 @@
+MotorShield	KEYWORD1	MotorShield
+iniciaMotorShield	    KEYWORD2
+sentido1		        KEYWORD2
+sentido2		        KEYWORD2
+trava			        KEYWORD2
+controleDeCorrente	    KEYWORD2
+identificadorDeComando	KEYWORD2
+converteComando		    KEYWORD2
+
+inicia_SensorAgua		    KEYWORD2
+leitura_SensorAgua		    KEYWORD2
+
+inicia_SensorRefletancia	KEYWORD2
+leitura_SensorRefletancia	KEYWORD2
+
+inicia_GY521_MPU6050		KEYWORD2
+obtemDados_GY521_MPU6050	KEYWORD2
+
+inicia_TCS230		KEYWORD2
+filtroCor_TCS230	KEYWORD2
+frequencia_TCS230	KEYWORD2
+leitura_TCS230		KEYWORD2
+
+inicia_Ultrassonico		KEYWORD2
+leitura_Ultrassonico	KEYWORD2
+
+inicia_TTC104	KEYWORD2
+leitura_TTC104	KEYWORD2
+
+inicia_Botao	KEYWORD2
+estado_Botao	KEYWORD2
+    
+inicia_pino		KEYWORD2
+estado_pino		KEYWORD2
+
+inicia_Buzzer	KEYWORD2
+beepSimples		KEYWORD2
+beep		    KEYWORD2
+
+inicia_PonteH	            KEYWORD2
+sentido1_PonteH		        KEYWORD2
+sentido2_PonteH		        KEYWORD2
+trava_PonteH	            KEYWORD2
+controleDeCorrente_PonteH	KEYWORD2
+desliga_PonteH		        KEYWORD2
+
+SN74HC595	KEYWORD1	SN74HC595   
+inicia                  KEYWORD2
+estadoPino              KEYWORD2
+
+PCF8574	KEYWORD1	PCF8574
+estadoPino		        KEYWORD2
+leitura			        KEYWORD2

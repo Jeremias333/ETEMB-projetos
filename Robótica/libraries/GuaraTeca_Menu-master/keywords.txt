@@ -1,0 +1,14 @@
+#######################################
+# Syntaxe de cores do GuaraTeca_Menu
+#######################################
+
+###############################
+# Consantes e tipos (LITERAL1)
+###############################
+
+Hardware	LITERAL1
+OBR	LITERAL1
+Aprender	LITERAL1
+Ativada	LITERAL1
+Desativada	LITERAL1
+funcao	LITERAL1
